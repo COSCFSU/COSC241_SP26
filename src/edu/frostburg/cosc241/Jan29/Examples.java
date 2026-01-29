@@ -21,6 +21,13 @@ public class Examples {
 			System.out.println(i);
 			System.out.println(word1.charAt(i));
 		} // end of for loop
+		
+//		// conditional
+//		if (condition) {
+//			// true stuff
+//		} else {
+//			// false stuff
+//		}
 	}
 	
 	public int add(int a, int b) {
