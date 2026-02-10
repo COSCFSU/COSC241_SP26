@@ -71,7 +71,7 @@ public class Example {
 		boolean a = true;
 		boolean b = false;
 		
-		if (a && b) {
+		if (a && b || !a) {
 			System.out.println("something");
 		}
 	}
