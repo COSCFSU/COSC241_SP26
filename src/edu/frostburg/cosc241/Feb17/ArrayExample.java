@@ -48,4 +48,19 @@ public class ArrayExample {
 		}
 		System.out.printf("%d]%n", a[a.length-1]);
 	}
+	
+	/**
+	 * 6) contains(String[] words, String word)
+	 *	a. Returns a boolean, true if words contains word, and false otherwise
+	 */
+	public boolean contains(String[] words, String word) {
+		String s1 = "hello";
+		String s2 = "hello";
+		
+//		if (s1 == s2) {  // Do not compare reference equality like this (compares references only)
+		if (s1.equals(s2)) { // compares the values
+			return true;
+		}
+		return false;
+	}
 }
