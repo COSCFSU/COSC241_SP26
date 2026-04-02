@@ -15,7 +15,7 @@ public class SortMachine extends AlgorithmThing {
 		if (low < high) {
 			
 			// partition index
-			int pi = partition(arr, low, high);  // <--- TODO: We'll change this
+			int pi = partition(arr, low, high);  
 			
 			quickSort(arr, low, pi - 1); // sort smaller nums (left)
 			quickSort(arr, pi + 1, high); // sort bigger nums (right)
